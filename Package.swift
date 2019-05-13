@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "AppStoreConnect-Swift-SDK",
+    platforms: [
+        .macOS(.v10_13)
+    ],
     products: [
         .library(
             name: "AppStoreConnect-Swift-SDK",
